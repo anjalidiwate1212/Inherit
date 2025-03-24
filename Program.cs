@@ -25,6 +25,15 @@ namespace Inheritance_Group_3
         }
     }
 
+     public class ClassRepresentative : Student
+    {
+        public string ClassName { get; set; }
+
+        public void LeadClass()
+        {
+            Console.WriteLine($"{Name} is the class representative for {ClassName}.");
+        }
+    }
 
     internal class Program
     {
@@ -32,15 +41,20 @@ namespace Inheritance_Group_3
         {
             // Creating objects for Student and ClassRepresentative
             Student student = new Student { Name = "Alice", Age = 21, Major = "Computer Science" };
+            ClassRepresentative classRep = new ClassRepresentative { Name = "John", Age = 22, Major = "Software Engineering", ClassName = "CS 101" };
            // ClassRepresentative classRep = new ClassRepresentative { Name = "John", Age = 22, Major = "Software Engineering", ClassName = "CS 101" };
 
             // Calling methods from both the base class and derived classes
             student.Introduce();
             student.Study();
 
-         
+            Console.WriteLine(); // For spacing
 
-            Console.ReadLine(); // To keep the console window open
+            classRep.Introduce();  
+            classRep.Study();       
+            classRep.LeadClass();   
+
+            Console.ReadLine();
         }
     }
 }
