@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lgSI+aM+bvk=",
+  "dgSpecHash": "iNp8dqkdUlc=",
   "success": true,
-  "projectFilePath": "/Users/dushyanthasrani/Desktop/Courses/Inherit/Inheritance_Group 3.csproj",
-  "expectedPackageFiles": [
-    "/Users/dushyanthasrani/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
-    "/Users/dushyanthasrani/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
-    "/Users/dushyanthasrani/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.13/microsoft.netcore.app.host.osx-arm64.8.0.13.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\test\\Downloads\\Inheritance\\Inheritance_Group 3.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
